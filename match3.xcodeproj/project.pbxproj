@@ -12,7 +12,6 @@
 		403502552B59CC230058457C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4035024E2B59CC230058457C /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		403502622B59CC910058457C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035025A2B59CC910058457C /* AppDelegate.swift */; };
 		403502632B59CC910058457C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035025B2B59CC910058457C /* Settings.swift */; };
-		403502652B59CC910058457C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035025D2B59CC910058457C /* App.swift */; };
 		403502662B59CC910058457C /* WorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035025F2B59CC910058457C /* WorkView.swift */; };
 		403502672B59CC910058457C /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403502602B59CC910058457C /* Spinner.swift */; };
 		403502682B59CC910058457C /* PrivacyAndTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403502612B59CC910058457C /* PrivacyAndTerms.swift */; };
@@ -71,7 +70,6 @@
 		403502522B59CC230058457C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4035025A2B59CC910058457C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4035025B2B59CC910058457C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		4035025D2B59CC910058457C /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		4035025F2B59CC910058457C /* WorkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkView.swift; sourceTree = "<group>"; };
 		403502602B59CC910058457C /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		403502612B59CC910058457C /* PrivacyAndTerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyAndTerms.swift; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 			isa = PBXGroup;
 			children = (
 				403502692B59CD120058457C /* GoogleService-Info.plist */,
-				4035025D2B59CC910058457C /* App.swift */,
 				4035025A2B59CC910058457C /* AppDelegate.swift */,
 				4035025E2B59CC910058457C /* CustomViews */,
 				403502612B59CC910058457C /* PrivacyAndTerms.swift */,
@@ -424,7 +421,6 @@
 				D37E8F102B377DB300027DF6 /* DTScene.swift in Sources */,
 				403502662B59CC910058457C /* WorkView.swift in Sources */,
 				D37E8F1D2B3A38ED00027DF6 /* SIHView.swift in Sources */,
-				403502652B59CC910058457C /* App.swift in Sources */,
 				D37E8F212B3A402500027DF6 /* FRFDetView.swift in Sources */,
 				D37E8F232B3A4C6400027DF6 /* WRSView.swift in Sources */,
 				403502632B59CC910058457C /* Settings.swift in Sources */,
